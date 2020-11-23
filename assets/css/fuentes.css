@@ -1,0 +1,9 @@
+@font-face{
+    font-family: spaceage;
+    src : url(spaceage.ttf) 
+}
+
+
+.ffs{
+    font-family: spaceage !important;
+} 
