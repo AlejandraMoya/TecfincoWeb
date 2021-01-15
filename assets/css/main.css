@@ -66,8 +66,8 @@ body {
 	/*-moz-osx-font-smoothing: grayscale;*/
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden !important;
-	background-image: url('../images/background/bk7.png');
-	background-repeat: unset;
+	background-image: url('../images/background/bkgIns.jpg');
+	background-repeat: round;
 }
 /* .navbar,
 main {
@@ -1408,7 +1408,7 @@ aside .thumb figure {
     float: none !important;
 	position: relative;
 	background:transparent !important;
-	border-bottom: 1px solid #E6E9ED;
+	border-bottom: 1px solid #707E8C;
 	z-index: 0;
 }
 .navbar-header li,
@@ -1422,7 +1422,7 @@ aside .thumb figure {
 	/* background-color: #F5F7FA !important; */
 	padding-top: 30px;
 	padding-bottom: 30px;
-	border-bottom: 1px solid #E6E9ED;
+	border-bottom: 1px solid #707E8C;
 	width: 100%;
 }
 .navbar-collapse.collapse:not(.show) {
@@ -1450,7 +1450,7 @@ aside .thumb figure {
 	margin-left: auto;
 }
 .navbar-nav > li > a {
-	font-size: 15px;
+	font-size: 18px;
 	line-height: 20px;
 	font-weight: 700;
 	/* text-transform: uppercase; */
@@ -1565,11 +1565,12 @@ aside .thumb figure {
 }
 .navbar-header .info li {
     font-size: 12px;
-    padding-right: 25px;
+	padding-right: 25px;
+    color: #000 !important;	
 }
 .navbar-header .info li a {
     font-size: 12px;
-    color: #73879C;
+    color: #000;
 }
 .navbar-header .info a:hover {
     color: #1ABB9C;
@@ -2264,7 +2265,7 @@ p .btn {
 	font-weight: 700;
     text-transform: uppercase;
 	padding: 13px;
-    border: 1px solid #CED7E0;
+    border: 1px solid #506A85;
 	border-radius: 50%;
 	overflow: hidden;
 }
@@ -2272,7 +2273,7 @@ p .btn {
 	font-family: 'Lato', sans-serif;
 	font-size: 40px;
 	line-height: 100%;
-	font-weight: 200;
+	font-weight: 400;
 	margin: -10px 0 5px;
 }
 .tabs-circle-top .tab a:hover {
